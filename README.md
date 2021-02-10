@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Overview
+This is a map website, aiming to provide a overview of the world and countries.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Website Preview](https://oooositong.github.io/travel-stone/)
+
 
 ## Available Scripts
 
