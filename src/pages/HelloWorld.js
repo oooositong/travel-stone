@@ -1,6 +1,6 @@
-import React from "react";
-import { Viewer, Entity, GeoJsonDataSource } from "resium";
-import { Cartesian3, createWorldTerrain } from "cesium";
+import React from 'react';
+import { Viewer, Entity, GeoJsonDataSource } from 'resium';
+import { Cartesian3, createWorldTerrain } from 'cesium';
 import worldGeoJson from '../assets/geojson/countries-medium.geojson';
 
 const position = Cartesian3.fromDegrees(-74.0707383, 40.7117244, 100);
