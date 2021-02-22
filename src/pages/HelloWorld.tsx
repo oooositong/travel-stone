@@ -1,7 +1,7 @@
 import React from "react";
-import { Viewer, Entity, GeoJsonDataSource } from "resium";
+import { Viewer, Entity } from "resium";
 import { Cartesian3, createWorldTerrain } from "cesium";
-import worldGeoJson from "../assets/geojson/countries-medium.geojson";
+// import worldGeoJson from "../assets/geojson/countries-medium.geojson";
 
 const position = Cartesian3.fromDegrees(-74.0707383, 40.7117244, 100);
 const pointGraphics = { pixelSize: 10 };
@@ -16,7 +16,7 @@ const HelloWorld = () => (
       description="Hello World"
     />
 
-    <GeoJsonDataSource data={worldGeoJson} />
+    {/* <GeoJsonDataSource data={worldGeoJson} /> */}
   </Viewer>
 );
 
