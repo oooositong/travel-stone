@@ -22,7 +22,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "gh-page-deploy": "gh-pages -d build",
+    "gh-page-deploy": "craco build && gh-pages -d build",
     "format": "prettier --write src/**/*.js && eslint src/**/*.js"
   },
   "eslintConfig": {
